@@ -1,4 +1,4 @@
-## Building Royalties
+## Building Freelabit
 
 ### On *nix:
 
@@ -10,24 +10,6 @@ You may download them from:
 - http://www.cmake.org/
 - http://www.boost.org/
 
-Alternatively, it may be possible to install them using a package manager.
-
-To build:
-Run these commands:
-```
-cd ~
-git clone https://github.com/Vetro7/RoyaltiesCLI RoyaltiesCLI
-cd RoyaltiesCLI
-mkdir build
-cd build
-cmake ..
-cd ..
-make
-```
-
-The resulting executables can be found in `RoyaltiesCLI/build/release/src`.
-
-#### Advanced options:
 
 Parallel build: run `make -j<number of threads>` instead of `make`.
 
