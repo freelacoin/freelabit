@@ -90,12 +90,11 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 const uint64_t START_BLOCK_REWARD                            = (UINT64_C(100) * parameters::POINT);
-const uint64_t ICO_BLOCK_REWARD	                             = (UINT64_C(8446744073) * parameters::COIN); // 8.4 billion 
-const uint64_t MAX_BLOCK_REWARD                              = (UINT64_C(10) * parameters::COIN);
+const uint64_t MAX_BLOCK_REWARD                              = (UINT64_C(1000) * parameters::COIN);
 const uint64_t REWARD_INCREASE_INTERVAL                      = (UINT64_C(264000));
 
 const char     CRYPTONOTE_NAME[]                             = "Freelabit";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001a08d06029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101da2fe48eb753af2a4475438c46ad0f3db1bff0d826621c215821d532329789dd";
 const uint32_t GENESIS_NONCE                                 = 70;
 const uint64_t GENESIS_TIMESTAMP                             = 1496764095;
 
