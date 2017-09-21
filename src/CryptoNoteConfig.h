@@ -95,7 +95,7 @@ const uint64_t MAX_BLOCK_REWARD                              = (UINT64_C(100) * 
 const uint64_t REWARD_INCREASE_INTERVAL                      = (UINT64_C(264000));
 
 const char     CRYPTONOTE_NAME[]                             = "Freelabit";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff000180ade204029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101c0785a24009b03f151f73f97d93ee2f593a5405c48b0495e7f8e65297db7fcc7";
 const uint32_t GENESIS_NONCE                                 = 70;
 const uint64_t GENESIS_TIMESTAMP                             = 1496764095;
 
