@@ -10,6 +10,14 @@ You may download them from:
 - http://www.cmake.org/
 - http://www.boost.org/
 
+Build commands:
+cd ~
+sudo apt-get install build-essential git cmake libboost1.58-all-dev
+git clone https://github.com/freelacoin/freelabit.git FBF
+cd FBF
+make
+
+You can find freelabitd (daemon) and flbwallet on /FBF/build/release/src
 
 Parallel build: run `make -j<number of threads>` instead of `make`.
 
