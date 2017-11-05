@@ -12,7 +12,7 @@ You may download them from:
 
 
 Build commands:
-
+```
 cd ~
 
 sudo apt-get install build-essential git cmake libboost1.58-all-dev
@@ -22,7 +22,7 @@ git clone https://github.com/freelacoin/freelabit.git FBF
 cd FBF
 
 make
-
+```
 You will find freelabitd (daemon) and flbwallet on /FBF/build/release/src
 
 
