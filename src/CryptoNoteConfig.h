@@ -1,8 +1,8 @@
-// Copyright (c) 2011-2017 The Cryptonote developers
-// Copyright (c) 2014-2017 XDN developers
-// Copyright (c) 2016-2017 BXC developers
-// Copyright (c) 2017 Royalties developers
-// Copyright (c) 2017 Freelabit developers
+// Copyright (c) 2011-2018 The Cryptonote developers
+// Copyright (c) 2014-2018 XDN developers
+// Copyright (c) 2016-2018 BXC developers
+// Copyright (c) 2017-2018 Royalties developers
+// Copyright (c) 2017-2018 Freelabit developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
