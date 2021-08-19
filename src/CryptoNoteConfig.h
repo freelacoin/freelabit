@@ -3,6 +3,7 @@
 // Copyright (c) 2016-2018 BXC developers
 // Copyright (c) 2017-2018 Royalties developers
 // Copyright (c) 2017-2018 Freelabit developers
+// Copyright (c) 2019-2021 Freelabit developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -130,11 +131,10 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "0000000000000000000000000000000000000000000000000000000000000000";
 
 const std::initializer_list<const char*> SEED_NODES = {
-   "155.254.33.76:31002",
-   "18.216.107.49:31002",
-   "162.218.211.151:31002",
-   "162.218.211.202:31002",
-};
+   "51.83.3.42:31002",
+   "216.244.77.114:31002",
+   "113.81.250.131:31002",
+   };
 
 struct CheckpointData {
   uint32_t height;
@@ -167,6 +167,7 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {
 { 103000, "8114ddf515df39ceaa4c6b017e8e8820c60d337c5d87f8eaf94c2a1a676d1db6" },
 { 104000, "622b65a2906a8b3b876a900cf315a18d33e2359163295413c7ef100a53a5d35b" },
 { 105000, "2f1bd99b33e5b71ebb4f7067692aa3b99a9bfd71ff64b491dabf9e3a6bc109e9" },
+{ 185000, "e8f34262e2db42b0366be06b83a49382d59a47d97a223a54ae72839673a1ff70" },   
 };
 
 } // CryptoNote
